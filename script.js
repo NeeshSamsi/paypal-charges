@@ -16,3 +16,7 @@ const getExchangeRate = async (from, to) => {
     console.log(error);
   }
 };
+
+const getPercentage = (value, percentage) => {
+  return (value * percentage) / 100;
+};
